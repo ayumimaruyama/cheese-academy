@@ -1,0 +1,371 @@
+@charset "utf-8";
+/*  共通部分 */
+html{
+    font-size: 100%; /*  ブラウザのデフォルト文字サイズ16px */
+}
+a{
+ text-decoration: none;/* aタグ棒線 */
+}
+img{
+    max-width: 100%;/* 画像の大きさ */
+}
+.wrapper{
+    max-width: 1200px;/* 横幅最大1200px */
+    padding: 10px;/* 仮追加！！ */
+    margin: 0 auto;/* 中央配置 */
+}
+
+/*  header */
+.logo{
+width: 381px;
+height: 80px;
+margin-left: 40px;
+margin-top: 20px;
+}
+.main-nav{
+    display: flex;
+    font-size: 20px;
+    font-family: gillsans;
+    text-transform: uppercase;/* 全てのテキストを大文字 */
+    margin-top: 50px;
+    list-style: none;/* リストの「・」を表示しない */
+}
+.main-nav li{
+    margin-left: 68px;/* ナビ表記と表記のマージン */
+}
+.main-nav a{
+    color: rgb(179, 45, 63);;/* ナビをリンクにしたら有効 */
+}
+.main-nav a:hover{
+    color: rgb(9, 149, 161);/* ナビをリンクにしたら有効 */
+}
+.page-header{
+    display: flex;/* ナビメニューを横並びに*/
+}
+
+/*  home-content */
+.home-content {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Gen Jyuu Gothic Monospace bold;
+    color: rgba(0, 0, 0);
+    }
+    .page-title{
+        font-size: 54px;
+        padding-top: 120px;
+    }
+    .home-content p{
+        font-size: 36px;
+        padding-top: 60px;
+    }
+    .big-bg{
+        background-size: cover;
+        background-position: center top;
+    }
+    #home1 {
+        background-image: url(../img/mainbg.png);
+        height: 400px;
+        margin-top: 0px;
+    }
+    #home2 {
+        background-image: url(../img/mainbg_1.png);
+        height: 400px;
+        margin-top: 0px;
+    }
+    #home3 {
+        background-image: url(../img/mainbg_2.png);
+        height: 400px;
+        margin-top: 0px;
+    }
+    #home .page-title{
+        text-transform: none;
+    }
+
+/*  about */
+.about-content{
+    text-align: center;
+    height: 400px;
+    font-family:  Gen Jyuu Gothic Monospace;
+}
+
+.about-title{
+    font-size: 28px;
+    padding-top: 68px;
+    color: rgb(0, 0, 0);
+    font-family: gillsans;
+}
+.about-content p{
+    font-size: 20px;
+    padding-top: 24px;
+    text-align: center;
+   line-height: 16px;
+    color: rgb(0, 0, 0);
+}
+
+/*  course */
+.course-content {
+    text-align: center;
+    font-family: Gen Jyuu Gothic Monospace;
+    color: rgb(0, 0, 0);
+    }
+.course-title{
+    font-size: 28px;
+    padding-top: 68px;
+    font-family: gillsans;
+}
+.course-content p{
+    font-size: 20px;
+    padding-top: 24px;
+   line-height: 16px;
+}
+
+/*  about-container */
+.about-container{
+    display: flex;
+    height: 200px;
+}
+
+/*  course-container1 */
+.course-container1 {
+    display: flex;
+    text-align: center;
+    font-family:  Gen Jyuu Gothic Monospace;
+}
+.container01{
+    margin-top: 68px;
+    width: 600px;
+    height: 400px;
+}
+.course-container1-title{
+    width: 600px;
+    height: 400px;
+}
+.course-container1-title h2{
+    margin-top: 64px;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    font-size: 28px;
+    font-family:Gen Jyuu Gothic Monospace bold;
+}
+.course-container1-title p{
+    font-size: 20px;
+   line-height: 16px;
+   padding: 0px;
+}
+/*  course-container2 */
+.course-container2 {
+    display: flex;
+    text-align: center;
+    font-family:  Gen Jyuu Gothic Monospace;
+}
+.container02{
+    width: 600px;
+    height: 400px;
+}
+.course-container2-title{
+    width: 600px;
+    height: 400px;
+}
+.course-container2-title h2{
+    padding-top: 64px;
+    padding-bottom: 24px;
+    font-size: 28px;
+    font-family:Gen Jyuu Gothic Monospace bold;
+}
+.course-container2-title p{
+    font-size: 20px;
+   line-height: 16px;
+   padding: 0px;
+}
+/*  course-container3 */
+.course-container3 {
+    display: flex;
+    text-align: center;
+    font-family:  Gen Jyuu Gothic Monospace;
+}
+.container03{
+    width: 600px;
+    height: 400px;
+}
+.course-container3-title{
+    width: 600px;
+    height: 400px;
+}
+.course-container3-title h2{
+    padding-top: 64px;
+    padding-bottom: 24px;
+    font-size: 28px;
+    font-family:Gen Jyuu Gothic Monospace bold;
+}
+.course-container3-title p{
+    font-size: 20px;
+   line-height: 16px;
+   padding: 0px;
+}
+
+/*  news */
+.news-content {
+    text-align: center;
+    font-family: Gen Jyuu Gothic Monospace;
+    }
+.news-title{
+    font-size: 28px;
+    padding-top: 68px;
+    color: rgb(0, 0, 0);
+    font-family: gillsans;
+}
+.news-content p{
+    font-size: 20px;
+    padding-top: 24px;
+    text-align: center;
+   line-height: 16px;
+    color: rgb(0, 0, 0);
+}
+
+/*  news conteiner */
+.news-container-group{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+.news-container{
+    color: rgb(0, 0, 0);
+}
+.news{
+    width: 300px;
+    height: 200px;
+    padding-top: 68px;
+}
+.news-container-title{
+    font-size: 28px;
+    font-family: gillsans;
+    padding-top: 16px;
+}
+.news-container-title p{/*  !行間狭くしたい! */
+    font-size: 20px;
+    padding-top: 28px;
+}
+
+/*  read more button */
+.read-more-button{
+    text-align: center;
+    margin-top: 64px;
+}
+.button{
+    font-size: 28px;
+    font-family: gillsans;
+    background: rgb(227, 223, 222);
+    color: rgb(215, 49, 46);
+    padding: 16px 72px;
+    text-align: center;
+    border-radius:  12px ;/*  ボタンの角丸 */
+}
+
+/*  access */
+.access-content {
+    text-align: center;
+    margin: 64px;
+    font-family: Gen Jyuu Gothic Monospace;
+    color: rgb(0, 0, 0);
+    }
+.access-title{
+    font-size: 28px;
+    padding-top: 68px;
+    font-family: gillsans;
+}
+.access-content p{
+    font-size: 20px;
+    padding-top: 24px;
+    line-height: 16px;
+}
+
+/*  location */
+.location{
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+.location-map{
+    text-align: center;
+}
+.location-info h2{
+    font-size: 24px;
+    font-family: Gen Jyuu Gothic bold;
+    text-align: center;
+    padding-top: 32px;/* 行間つめたい  */
+}
+.location-info p{
+    font-size: 20px;
+    font-family: Gen Jyuu Gothic;
+    text-align: center;
+    line-height: 16px;
+}
+
+/*  contact */
+.contact-content {
+    text-align: center;
+    font-family: Gen Jyuu Gothic Monospace;
+    color: rgb(0, 0, 0);
+    }
+.contact-title{
+    font-size: 28px;
+    padding-top: 68px;
+    font-family: gillsans;
+}
+.contact-content p{
+    font-size: 20px;
+    padding-top: 24px;
+    line-height: 16px;
+}
+
+/*  contact text */
+.contact-content-text {
+    margin-top: 68px;
+    margin-bottom: 68px;
+    text-align: center;
+    font-family: Gen Jyuu Gothic Monospace;
+    color: rgb(0, 0, 0);
+    }
+.contact-content-text p{
+    padding-top: 24px;
+    font-size: 20px;
+    line-height: 16px;
+}
+
+
+/*  contact form */
+.contact-form {
+    text-align: center;
+}
+
+/*  read more button */
+#top-button{
+    text-align: center;
+    margin-top: 64px;
+}
+#top-button{
+    font-size: 28px;
+    font-family: gillsans;
+    background: rgb(227, 223, 222);
+    color: rgb(215, 49, 46);
+    padding: 16px 72px;
+    text-align: center;
+    border-radius:  12px ;/*  ボタンの角丸 */
+}
+
+#top-button-message{
+    text-align: center;
+    margin-top: 64px;
+    font-size: 36px;
+    font-family: Gen Jyuu Gothic Monospace bold;
+    color: rgb(215, 49, 46);
+}
+
+/*  footer */
+footer{
+    font-size: 10px;
+    font-family: gillsans;
+    text-align: center;
+    width: 1200px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
